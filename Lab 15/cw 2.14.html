@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Ankieta</h1>
+    </header>
+    <nav>
+
+    </nav>
+    <section>
+        <script>
+            function sprawdz(formularz)
+            {
+                for (i = 0; i < formularz.length; i++)
+                {
+                    var pole = formularz.elements[i];
+                    if (!pole.disabled && !pole.readonly && (pole.type == "text" || pole.type == "password" || pole.type == "textarea") && pole.value == "")
+                    {
+                        alert("Proszę wypełnić wszystkie pola!");
+                        return false;
+                    }
+                }
+                return true;
+            }
+            </script>
+            
+            <form action="mailto:mishaks2007@gmail.com?subject=temat" method="post" enctype="text/plain" onsubmit="if (sprawdz(this)) return true; return false">
+            <p>Podaj Nazwisko:<input type="text"></p>
+            <p>Podaj Imie:<input type="text"</p>
+            <p>Wybierz płeć:<br/><input type="radio" name="plec" value="Kobieta">Kobieta
+                <input type="radio" name="plec" value="Mężczyzna">Mężczyzna</p>
+            <p>Podaj wiek:<input type="text"></p>
+            <p>Podaj adres e-mail:<input type="text" ></p>
+            <P>Wybierz język:<br>
+                <select multiple>
+                    <option>
+                        Język Angielski
+                    </option>
+                    <option>
+                        Język Polski
+                    </option>
+                    <option>
+                        Język Niemiecki
+                    </option>
+                    <option>
+                        Język Rosyjski
+                    </option>
+                    <option>
+                        Język Ukraiński
+                    </option>
+                    <option>
+                        Język Hiszpański
+                    </option>
+                    <option>
+                        Język Francuski
+                    </option>
+
+                    
+                </select>
+            </p>
+            <p>Wybierz zainteresowania: <br>
+                <input type="checkbox" value="Motoryzacja">Motoryzacja<br>
+                <input type="checkbox" value="Sport">Sport<br>
+                <input type="checkbox" value="Muzyka">Muzyka<br>
+                <input type="checkbox" value="Taniec">Taniec<br>
+                <input type="checkbox" value="Gry komputerowe">Gry komputerowe<br>
+                <input type="checkbox" value="Inne">Inne (podaj)<input type="text"><br>
+            </p>
+            <p>Opisz swoje zaintereseowanie<br><textarea rows="10" cols="40">
+
+            </textarea></p>
+            <p>
+                <input type="checkbox" required>Zgadzam sie na przetważanie moich danych osobowych
+
+            </p>
+            <p>
+                <input type="submit"><input type="reset">
+            </p>
+</body>
+</html>
