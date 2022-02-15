@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p span{
+            font-weight: bold;
+        }
+        p > #xxx{
+            font-weight: bold; 
+            font-size: 12px;
+
+        }
+        p .dziecko{
+            font-size: 20px;
+        }
+        p+.brat{
+            font-size: 12px;
+        }
+        span+.brat{
+            font-size: 12px;
+        }
+        #brat1{
+            font-weight: 400;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="zadanie">
+        <p><span>Ten tekst jest</span> selektorem potomka. <span>Zdefiniuj to w arkuszu stylów.</span></p>
+        <p><span class="dziecko">Ten tekst jest</span> <span id="xxx">selektorem dziecka</span> . <span class="dziecko">Zdefinuj to w arkuszu stylów.</span></p>
+        <p><span class="brat">Ten tekst jest</span> <span id="brat1">selektorem braci.</span> <span class="brat">Zdefiniuj to w arkuszu stylów.</span></span></p>
+    </div>
+</body>
+</html>

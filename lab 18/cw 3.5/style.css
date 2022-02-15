@@ -1,0 +1,18 @@
+p b {
+    color: burlywood;
+}
+p > i {
+    color: crimson
+}
+big + u  {
+    color: blueviolet 
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20%;
+    width: 500px;
+    height: 90px;
+    text-align: justify;
+}

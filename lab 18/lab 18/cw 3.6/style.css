@@ -1,0 +1,31 @@
+
+body{
+    background-color: #757373;
+}
+
+div[id='lewo']{
+    text-align:left;
+    color: blue;
+}
+
+div[id='środek']{
+    text-align: center;
+    color: green;
+}
+
+div[id='prawo']{
+    text-align: right;
+    color: red;
+}
+
+
+
+h2[id='żółty']{
+    color: yellow;
+    font-size: 16pt;
+}
+
+h2[id='granatowy']{
+    font-size: 20pt;
+    color: navy;
+}
