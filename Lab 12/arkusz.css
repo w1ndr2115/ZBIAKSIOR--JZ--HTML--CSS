@@ -1,0 +1,19 @@
+body{
+    background-color: #ffffffc4;
+}
+table{
+    background-color: #c8e1e2;
+}
+table:hover{
+    font-size: 20px;
+}
+    
+a{
+    text-decoration: none;
+    color:#e91e1e;
+    font-size: 20px;
+
+}
+a:hover{
+    color:blue;
+}
