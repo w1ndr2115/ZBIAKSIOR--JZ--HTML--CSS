@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    margin-inline: auto;
+    background-color: rgb(70, 70, 70);
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+section{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: rgb(170, 170, 170);
+}
+footer{
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+    
+}
+#a p{
+    padding: 20px;
+    padding-right: 60px;
+    
+}
+#b{
+    width: 60%;
+    height: 590px;
+}
+#a{
+    height: 390px;
+}
+#c{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+article{
+    background-color:rgb(131, 131, 131);
+    margin: 3px 30px ;
+}
+a:hover{
+    background-color: rgb(136, 136, 136);
+}
+
