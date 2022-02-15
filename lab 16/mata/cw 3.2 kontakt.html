@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszykówka</title>
+    <meta name="author" content="Mykhailo Aksonov">
+    <link rel="icon" href="grafika/icone.png" type="image/icon">
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            color:white;
+            background-color: #070707;
+            font-size: large;
+            font-family: Lato, sans-serif;
+        }
+        nav ol li{
+            border:2px solid grey ;
+            display: inline-block;
+        }
+        nav ol li:hover{
+            background-color: #7e7c7c;
+        }
+        a{
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding: 5px;
+            color: white;
+        }
+        a:visited{
+            color:white;
+        }
+        a:hover{
+            cursor: pointer;
+            text-shadow: 0 0 5px rgb(179, 127, 32);
+
+            
+        }
+        
+        .container{
+            width:80% ;
+            margin-inline: auto;
+        }
+        nav{
+            width: 100%;
+            margin-bottom: 20px;
+            
+            
+            
+        }
+        .fixed{
+            position: sticky;
+            background-color:#151515 ;
+            width: 100%;
+            top:0;
+            left: 0;
+           
+            
+            
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        ol{
+            padding-bottom: 20px;
+        }
+        footer ol li{
+            display: inline-block;
+        }
+        .media{
+            font-size: 20px;
+            
+            
+        }
+        footer{
+            
+            background-color:#151515 ;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        input{
+            background-color:#b4b1b1 ;
+        }
+        textarea{
+            background-color: #b4b1b1 ;;
+        }
+        #med{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <div align="center" class="fixed">
+        <header  >
+            <h1>Koszykówka</h1><img src="grafika/icone.png" width="50" height="50">
+        </header>
+        <nav>
+            <ol >
+                <li >
+                    <a href="cw 3.2.html">O Koszykówce</a>
+                </li>
+                <li>
+                    <a href="cw 3.2 stworca.html">O twórcy koszykówki</a>
+                </li>
+
+                <li>
+                    <a href="cw 3.2 kontakt.html">Kontakt</a>
+                </li>
+            </ol >
+        </nav>
+    </div>
+    <div class="container">
+        <section>
+            <article>
+                <h1>Kontakt</h1>
+    
+    
+
+                <section>
+                  <script>
+                    function sprawdz(formularz) {
+                      for (i = 0; i < formularz.length; i++) {
+                        var pole = formularz.elements[i];
+                        if (
+                          !pole.disabled &&
+                          !pole.readonly &&
+                          (pole.type == "text" ||
+                            pole.type == "password" ||
+                            pole.type == "textarea") &&
+                          pole.value == ""
+                        ) {
+                          alert("Proszę wypełnić wszystkie pola!");
+                          return false;
+                        }
+                      }
+                      return true;
+                    }
+                  </script>
+                   <form
+                   action="mailto:mishaks2007@gmail.com?subject=temat"
+                   method="post"
+                   enctype="text/plain"
+                   onsubmit="if (sprawdz(this)) return true; return false"
+                 >
+                    <input
+                      type="text"
+                      id="text-input-1"
+                      class="inputClass"
+                      placeholder="Temat"
+                    /><br />
+                    <textarea
+                      name="texarea"
+                      id="text-textarea-1"
+                      class="inputClass"
+                      value="body"
+                      placeholder="Napisz do nas!"
+                      cols="100%"
+                      rows="30"
+                    ></textarea>
+                    <br />
+                    <input type="submit" id="submit-input" value="OK" class="buttonClass" />
+                    <input type="reset" id="reset-input" class="buttonClass" />
+                  </form>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </div>
+    <footer id="med">
+        <ol class="media">
+            <li>
+                <a href="https://www.youtube.com/channel/UCOqaR45g74g1ihZpORoyX3Q" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="instagram.com/m1sh4ks/" target="_blank">Instagram</a>
+            </li>
+            <li>
+                Facebook
+            </li>
+           
+        </ol>
+        Autor:Aksonov Mykhailo
+    </footer>
+</body>
+
+</html>

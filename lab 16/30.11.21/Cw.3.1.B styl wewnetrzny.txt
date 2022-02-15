@@ -1,0 +1,7 @@
+Zamien styl lokalny z cw.3.1.A na wewnetrzny arkusz stylow.
+
+Odpowiedz w tym pliku na pytanie:
+Kiedy warto zastosowac styl lokalny, a kiedy wewnetrzny arkusz stylow?
+=====================================================================================================================
+
+Plika wenêtrznego u¿ywamy gdy musimy zdefiniowaæ arkusz styli do jednej strony ,lecz lokalny plik u¿ywamy gdy musimy zdefiniowaæ konkretny element.
