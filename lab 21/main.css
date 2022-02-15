@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 26px ;
+    font-weight:500;
+    color:rgb(32, 30, 0) ;
+    text-align: left  ;
+    text-shadow: 1px 1px 5px grey;
+    line-height: 30px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+#tlo{
+    background-image:url("choinka.jpeg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

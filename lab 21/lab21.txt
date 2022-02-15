@@ -1,0 +1,17 @@
+Utwórz stronę internetową prezentującą 5 tradycji bożonarodzeniowych - zwyczajow świątecznych i wigilijne w Polsce, które są dla ciebie najważniejsze.
+
+Na stronie wykorzystaj minimum 5 różnych atrybutów związanych z formatowaniem tekstu w języku CSS.
+
+Dla utworzonej strony internetowej umieść grafikę jako tło strony.
+Grafika musi korespondowac z trescia strony.
+
+Sprawdz dzialanie atrybutu background-attachment dla wartosci: scroll, fixed i local. Dzialanie to opisz ponizej:
+
+scroll: Obraz tła będzie się przewijał wraz z zawartością elementu
+
+
+fixed: Obraz tła, który nie będzie przewijał się wraz ze stroną 
+
+local: Obraz tła będzie przewijał się wraz ze stroną. To jest domyślne
+
+Na swojej stronie dla tła zastosuj wartość fixed.

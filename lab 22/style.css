@@ -1,0 +1,39 @@
+*{
+
+    margin: 0;
+    padding:0;
+    
+}
+
+
+main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(184, 184, 184);
+    margin-inline:auto;
+    padding:4px;
+    box-shadow: 0 0 10px black;
+    margin-top:50px;
+
+}
+#a{
+    margin: 1cm;
+    border: 2px solid green;
+}
+#b{
+    padding-top: 1cm ;
+    padding-bottom: 1cm ;
+    padding-inline: 3cm;
+    border: 2px solid purple;
+
+}
+footer{
+    margin-left: 2cm;
+    margin-right: 5cm;
+    padding-bottom:3cm;
+    border: 2px solid yellow;
+    
+}
+header{
+    border: 2px solid black;
+}
