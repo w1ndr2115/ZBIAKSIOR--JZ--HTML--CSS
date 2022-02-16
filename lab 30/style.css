@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(180, 180, 180);
+}
+main{
+    
+    height: 100%;
+}
+nav{
+    background-color: rgb(75, 75, 75);
+    width: 180px;
+    height:965px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+
+}
+.wrap{
+    display: block;
+    
+}
+section{
+    height: 100%;
+    width: 100%;
+    font-size: 1vw;
+}
+
+p{
+    margin-bottom:10px;
+}
